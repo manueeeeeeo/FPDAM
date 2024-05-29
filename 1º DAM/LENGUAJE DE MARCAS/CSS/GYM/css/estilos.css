@@ -1,1 +1,66 @@
+body{
+    font-size: 1.2em;
+}
 
+.rectangulo1{ /*El primer rectangulo del subencabezado*/
+    width: 250xp;
+    height: 35px;
+    background-color: beige;
+}
+
+.rectangulo2{ /*El segundo rectangulo del subencabezado*/
+    width: 35%;
+    height: 5%;
+    background-color: beige;
+}
+
+.rectangulo3{ /*El tercer rectangulo del subencabezado*/
+    width: 12em;
+    height: 2em;
+    background-color: beige;
+}
+
+/* CSS CON COLORES */
+
+a:visited {
+    color: rgb(160, 80, 100); /*Color con rgb*/
+}
+
+a:hover {
+    color: hotpink; /*Color con nombre*/
+    font-weight: bold;
+}
+
+a:active {
+    color: #008080; /*Color con hexadecimal*/
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1,
+h2 {
+    color: rgb(40%, 90%, 3%); /*Color con rgb con porcentajes*/
+}
+
+#recomendamos {
+    font-style: italic;
+}
+
+.resaltado {
+    color: rgba(200, 100, 230,0.4); /*Color con rgba, que incluye capa de transparencia*/
+    font-weight: bold;
+}
+
+h1:hover {
+    color: #FF66CC; /*Color de la web safe*/
+}
+
+ol .resaltado {
+    color: darkmagenta;
+}
+
+div>p {
+    text-indent: 15px;
+}
