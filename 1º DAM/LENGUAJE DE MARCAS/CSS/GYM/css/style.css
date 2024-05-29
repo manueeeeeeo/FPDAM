@@ -1,1 +1,55 @@
+body{
+    background-color: #D0D8E9;
+    background-image: url(../img/fondo.png);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.85em;
+    color: #3B5998;
+    text-align: center;
+}
 
+.consejos{
+    align-items: center;
+    text-align: justify;
+}
+
+h1{
+    color: #3B5998;
+    text-align: center;
+}
+
+.fotos{
+    align-items: center;
+    margin: 2px;
+    padding: 5px;
+}
+
+.piepag{
+    font-size: 0.85em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.piepag strong{
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+    color: #3B5998;
+    font-size: 1.2em;
+}
+
+muscu p, ol, ul{
+    text-align: justify;
+}
+
+.ejer h1{
+    text-align: left;
+}
+
+.ejer p{
+    text-align: justify;
+}
+
+.sub{
+    text-decoration: underline;
+}
