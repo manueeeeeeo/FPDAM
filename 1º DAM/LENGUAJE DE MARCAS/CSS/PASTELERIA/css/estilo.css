@@ -1,1 +1,51 @@
+@font-face{
+    font-family: 'CandyCane';
+    src: url(../fonts/CandyCane.ttf);
+}
 
+@font-face{
+    font-family: 'kiddy';
+    src: url(../fonts/kiddy.ttf);
+}
+
+body{
+    background-image: url(../img/fondo.jpg);
+}
+
+header h1{
+    font-family: 'CandyCane';
+    padding: 10px;
+    background-color: #f7d1cf;
+    color: #6e6e6e;
+    font-style: italic;
+    text-align: center;
+    font-variant: small-caps;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 0px;
+    font-size: 80px;
+}
+
+footer{
+    text-align: right;
+    font-variant: small-caps;
+    color: #6e6e6e;
+    background-color: #f7d1cf;
+    padding: 0.02px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+nav{
+    font-family: 'kiddy';
+    font-weight: bold;
+    background-color: #f7d1cf;
+    color: #6e6e6e;
+    text-align: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
