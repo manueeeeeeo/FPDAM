@@ -1,1 +1,50 @@
+/********************************************/
+/********NO MODIFICAR ESTE ARCHIVO***********/
 
+
+/* ESTILOS TODA LA WEB*/
+body{
+    font-size: 1.2em;
+    padding: 2%;
+    margin: 1%
+}
+/* FIN ESTILOS TODA LA WEB*/
+
+/* ESTILOS PARA TABLAS*/
+table {
+    text-align: center;
+    border: 4px solid purple;
+    margin: auto;
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid purple;
+}
+
+/*FIN ESTILOS PARA TABLAS*/
+
+/* ESTILOS PARA TÍTULOS DE SECCIÓN*/
+h1,h2 {
+    text-align: center;
+}
+
+/*FIN IFRAME */
+
+/*PIE DE PÁGINA*/
+footer {
+
+    background-color: lightgrey;
+    margin-top: 5%;
+    padding:4%;
+}
+/*FIN PIE DE PÁGINA*/
+
+/* ESTILOS IMÁGENES*/
+.sakurai{
+    width: 50%;
+}
+
+/*FIN ESTILOS IMÁGENES*/
