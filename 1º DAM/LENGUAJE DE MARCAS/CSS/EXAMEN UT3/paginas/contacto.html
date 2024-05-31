@@ -1,1 +1,58 @@
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactar</title>
+    <link rel="stylesheet" type="text/css" href="../css/estilos.css">
+</head>
+<body>
+    <!--Inicio del encabezado de la página-->
+    <header>
+        <h1>Super Smash Bros Ultimate</h1>
+    </header>
+    <!--Final del encabezado de la página-->
+    <nav>
+        <form action="envio_formulario.html" method="get"> <!--Direccionamos la web a esa otra página si el formulario ha sido correctamente plubicado-->
+            <fieldset>
+                <legend>Introduce tus datos personales</legend>
+                <label>Nombre (*)</label><br>
+                <input id="nombre" type="text" required="required" maxlength="5"><br> <!--El requiered nos ayuda a establecer que este campo es obligatorio-->
+                <label>Apellidos (*)</label><br>
+                <input id="apellidos" type="text" required="required" maxlength="15"><br> <!--El maxLength nos ayuda a establecer un maximo de letras que puede permitir ese campo-->
+                <label>DNI (*)</label><br>
+                <input id="dni" type="text" required="required" maxlength="9" placeholder="2578958L"><br>
+                <label>Correo (*)</label><br>
+                <input id="correo" type="email" required="required"><br><br>
+                <label>Género </label><br>
+                <input type="radio" name="getG" value="hombre"> Hombre<br>
+                <input type="radio" name="getG" value="mujer"> Mujer<br>
+                <input type="radio" name="getG" value="otro"> Otro<br><br><br>
+                <label>Fecha de Nacimiento </label>
+                <input type="date" id="fech_nac"> <!--La fecha nos permite introducir una fecha en su formato indicado-->
+            </fieldset>
+            <fieldset>
+                <legend>Información complementaria</legend>
+                <label>Mensaje (*)</label><br>
+                <textarea placeholder="Deja aquí el motivo de tu mensaje" id="mensaje" required="required" cols="50" rows="6"></textarea><br><br>
+                <input type="checkbox" id="empresa"> <label>Marca esta casilla si te pones en contacto en nombre de tu empresa</label><br><br><br>
+                <label>Enlace a tu página web</label><br>
+                <input type="url" id="urlPag" placeholder="http://mimascota.es"><br><br>
+                <label>Mándame una foto de tu mascota</label><br>
+                <input type="file" id="fotoMascota">
+            </fieldset>
+            <br><br>
+            <input type="submit" id="enviar" value="Enviar"> <!--Boton para enviar el formuarlio-->
+            <input type="reset" id="borrar" value="Borrar Formulario"> <!--Boton para borrar los datos del formulario introducidos-->
+        </form>
+        <br><br>
+        <a href="../index.html"><--Volver al Indice</a>
+    </nav>
+    <!--Inicio del footer de la página-->
+    <footer>
+        <p><strong>Autor de la Web: ALUMNO</strong></p>
+        <span>1º DAM &copy;</span>
+    </footer>
+    <!--Final del footer de la página-->
+</body>
+</html>
