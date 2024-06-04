@@ -1,1 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,700&display=swap');
 
+body{
+    font-family: 'Merriweather', Courier;
+    margin: 0 auto;
+}
+
+/*Responsive para dispositivos pequeños*/
+@media screen and (max-width:1000px){
+
+    /*Damos forma al grid de las pantallas pequeñas*/
+    .container{
+        display: grid;
+        grid-template-columns:1fr;
+        grid-template-rows: 1fr, 1fr, 1fr;
+        grid-template-areas: 
+            "Texto"
+            "Quienes"
+            "Luz";
+        height: calc(100vh);
+        padding: 0px;
+        margin: 0px;
+    }
+    .cont1{
+        grid-area: Texto;
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+    
+    .cont1 h1{
+        position: relative;
+        top: 75px;
+    }
+    
+    .especial{
+        color: #a1e1e1;
+    }
+    
+    .cont2{
+        grid-area: Quienes;
+        background-color: #1c488f;
+        text-align: center;
+        color: white;
+    }
+
+    .cont2 img{
+        position: relative;
+        top:50px
+    }
+
+    .cont2 span{
+        position: relative;
+        top: 50px;
+    }
+    
+    .cont3{
+        grid-area: Luz;
+        background-image: url(../img/bk-1.jpg);
+        background-size: cover;
+        background-position: 0px;
+    }
+
+    .cont4, .cont5, .cont6, .cont7, .cont8, .cont9, .cont10, .cont11{
+        display: none;
+    }
+}
+
+/*Responsive para dispositivos grandes*/
+@media screen and (min-width: 1000px) {
+
+    /*Damos forma al grid de las pantallas grandes*/
+    .container{
+        display: grid;
+        grid-template-columns: 1fr, 1r, 1fr, 1fr, 1fr;
+        grid-template-rows: 1fr, 1fr, 1fr;
+        grid-template-areas: 
+            "Texto Texto Texto QuienesSomos luz"
+            "Ordenador Servicios sobre all contacto"
+            "salidas salidas opiniones social social";
+            height: 99vh;
+    }
+    
+    .cont1{
+        grid-area: Texto;
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+    
+    .cont1 h1{
+        position: relative;
+        top: 75px;
+    }
+    
+    .especial{
+        color: #a1e1e1;
+    }
+    
+    .cont2{
+        grid-area: QuienesSomos;
+        background-color: #1c488f;
+        text-align: center;
+        padding: 50px;
+        color: white;
+    }
+    
+    .cont3{
+        grid-area: luz;
+        background-image: url(../img/bk-1.jpg);
+        background-size: cover;
+        padding: 50px;
+    }
+    
+    .cont4{
+        grid-area: Ordenador;
+        background-image: url(../img/bk-2.jpg);
+        background-size: cover;
+        padding: 80px;
+    }
+    
+    .cont5{
+        grid-area: Servicios;
+        background-color: #3776d2;
+        text-align: center;
+        padding: 50px;
+        color: white;
+    }
+    
+    .cont6{
+        grid-area: sobre;
+        background-color: #a1e1e1;
+        text-align: center;
+        padding: 50px;
+        color: white;
+    }
+    
+    .cont7{
+        padding: 50px;
+        grid-area: all;
+        background-image: url(../img/bk-3.jpg);
+        background-size: cover;
+    }
+    
+    .cont8{
+        padding: 50px;
+        grid-area: contacto;
+        background-color: #ffd649;
+        text-align: center;
+        padding-top: 50px;
+        color: white;
+    }
+    
+    .cont9{
+        grid-area: salidas;
+        background-image: url(../img/bk-4.jpg);
+        color: white;
+        text-align: center;
+        background-size: cover;
+        padding: 50px;
+    }
+    
+    .cont10{
+        grid-area: opiniones;
+        background-color: #1c488f;
+        text-align: center;
+        padding: 50px;
+        color: white;
+    }
+    
+    .cont11{
+        grid-area: social;
+        background-image: url(../img/bk-5.jpg);
+        color: white;
+        text-align: center;
+        background-size: cover;
+        padding: 50px;
+    }
+}  
