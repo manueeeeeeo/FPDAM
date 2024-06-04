@@ -1,1 +1,141 @@
+/*Importamos desde Google la fuente que vamos a usar*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+/*La situamos en todos los textos de la página*/
+body {
+    font-family: 'Monserrat', sans-serif;
+}
+
+/*Configuración del div principal de la página*/
+.grid-container{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 20px;
+    grid-template-columns: 3fr 3fr;
+    grid-template-rows: 39rem 20rem;
+    display: grid;
+    gap: 45px;
+}
+
+/*Damos dimensiones a todas las imagenes de la página*/
+img{
+    width: 200px;
+    height: 200px;
+}
+
+.grid1{
+    color: #fff;
+    background-color: #1a2937;
+    border-radius: 7%;
+    font-size: 18px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.grid1 h1{
+    font-size: 60px;
+}
+
+.grid2{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img1{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    background-color: orange;
+}
+
+.img2{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(141, 141, 141);
+}
+
+.img2 img{
+    position: relative;
+    top: 14px;
+    left: 25px;
+}
+
+.img3{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    background-color: #1a2937;
+}
+
+.img4{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(141, 141, 141);
+}
+
+.img3 img{
+    position: relative;
+    top: 14px;
+    left: 25px;
+}
+
+.img4 img{
+    position: relative;
+    top: 14px;
+    left: 25px;
+}
+
+.grid3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img5{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    background-color: orange;
+}
+
+.img5 img{
+    position: relative;
+    top: 14px;
+    left: 25px;
+}
+
+.img6{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    background-color: #1a2937;
+}
+
+.grid4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img7{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(141, 141, 141);
+}
+
+.img7 img{
+    position: relative;
+    top: 14px;
+    left: 25px;
+}
+
+.img8{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    background-color: #1a2937;
+}
