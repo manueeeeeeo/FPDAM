@@ -1,1 +1,9 @@
+EXPLICACIÓN DEL PROYECTO
 
+En mi caso, desde casi el tema 2 de Base de Datos nos dijierón que,
+teniamos que hacer el diseño de una bbdd para a lo largo del curso
+ir haciendo diferentes practicas en ella, insercciones, bloques de
+código, etc.
+
+
+Aquí vas a encontrar todo al respecto a mi proyecto, que fue un Gimnasio
