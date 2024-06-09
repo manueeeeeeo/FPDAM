@@ -1,1 +1,5 @@
-
+#¿Qué son las interfaces?
+Aquí podemos ver un ejemplo muy simple de que es un interfaz,
+en principio es una clase extra que nos sirve como indice
+de métodos para una clase extensa, al implementarla en la otra
+clase, esos método se nos crean solos.
