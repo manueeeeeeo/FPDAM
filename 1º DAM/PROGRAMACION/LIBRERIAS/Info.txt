@@ -1,1 +1,6 @@
-
+#EXPLICACIÓN LIBRERIAS
+Estas dos son las librerias principales que hemos usado y hemos
+tenido que exportar a Eclipse.
+La de json-simple para poder leer y cargar archivos ".JSON".
+La de obj es para poder conectarnos a las bases de datos
+de Oracle Developer.
