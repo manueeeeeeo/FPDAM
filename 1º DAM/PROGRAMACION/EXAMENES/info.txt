@@ -1,1 +1,1 @@
-
+En este apartado del repositorio, vas a poder encontrar todas las pruebas valuables que he realizado a lo largo de 1° DAM, además he introducido una práctica que nos hicieron hacer que era una especie de Spotify para cargar canciones y buscar grupos en concreto.
